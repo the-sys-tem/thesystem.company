@@ -4,6 +4,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://yoursite.com/",
+  site: "https://thesystem.company",
   integrations: [tailwind(), sitemap()]
 });

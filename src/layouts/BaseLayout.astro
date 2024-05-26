@@ -1,6 +1,5 @@
 ---
 import BaseHead from "@/components/BaseHead.astro";
-import Navigation from "@/components/global/Navigation.astro";
 ---
 
 <html lang="en" class="scroll-smooth selection:bg-black selection:text-white">
@@ -11,7 +10,6 @@ import Navigation from "@/components/global/Navigation.astro";
     class="bg-gray-100 flex flex-col min-h-screen mx-auto 2xl:max-w-screen-xl relative "
   >
 
-    <Navigation />
     <main class="flex-grow relative"><slot /></main>
     <script
       type="module"
